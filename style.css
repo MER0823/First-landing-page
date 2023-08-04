@@ -1,0 +1,58 @@
+html,
+body {
+  width: 100%;
+  height: 100%;
+  background: url(media/waterfall.jpg) no-repeat center center fixed; 
+  background-size: cover;
+  font-family: 'Montserrat', sans-serif;
+  background-size: cover;
+
+}
+/*
+hr {
+  max-width: 65px;
+  border-width: 3px;
+  border-color: #F05F44; 
+}*/
+
+h1 {
+  font-size: 4rem; 
+  color: rgb: 255,255,255,0.5;
+
+}
+
+h1.cutout {
+  background: white;
+  color: black;
+  mix-blend-mode: screen; // The magic
+}
+
+
+.buffer {
+  height: 10rem;
+}
+
+.btn {
+  font-weight: 700;
+  text-transform: uppercase;
+  border-radius: 300px;
+}
+
+.btn-primary {
+  background-color: #006400;
+  border-color: #006400;
+  --bs-btn-hover-bg: #2E8B57;
+  --bs-btn-hover-border-color: #2E8B57; 
+}
+
+.btn-primary:hover {
+  background-color: #2E8B57;
+  border-color: #2E8B57;
+  border-width: 4px;
+  cursor: pointer;
+}
+
+.btn-xl {
+  padding: 1rem 2rem; 
+}
+
